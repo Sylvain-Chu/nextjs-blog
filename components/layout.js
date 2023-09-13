@@ -4,8 +4,8 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
-const name = 'Sylvain le bossATOR';
-export const siteTitle = 'Next.js Sample Website';
+const name = 'Sisi le dev foufouATOR';
+export const siteTitle = 'Le meilleur site du monde';
 
 export default function Layout({ children, home }) {
   return (
@@ -14,7 +14,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="Apprenez à construire un site web avec moi, sisi le dev foufouATOR"
         />
         <meta
           property="og:image"
@@ -30,7 +30,7 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/profile.jpg"
+              src="/images/IMG_2573_1_z.jpg"
               className={utilStyles.borderCircle}
               height={144}
               width={144}
@@ -43,7 +43,7 @@ export default function Layout({ children, home }) {
             <Link href="/">
               <Image
                 priority
-                src="/images/profile.jpg"
+                src="/images/IMG_2573_1_z.jpg"
                 className={utilStyles.borderCircle}
                 height={108}
                 width={108}
